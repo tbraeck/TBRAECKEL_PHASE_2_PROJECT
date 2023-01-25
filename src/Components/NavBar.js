@@ -9,6 +9,16 @@ function NavBar() {
 
         <div className="navbar">
             <NavLink
+                to="/"
+                exact
+                // style={linkStyles}
+                activeStyle={{
+                    background: "darkblue",
+                }}
+            >
+                Home
+            </NavLink>
+            <NavLink
                 to="/about"
                 exact
                 // style={linkStyles}
@@ -19,14 +29,14 @@ function NavBar() {
                 About
             </NavLink>
             <NavLink
-                to="/genres"
+                to="/movies"
                 exact
                 // style={linkStyles}
                 activeStyle={{
                     background: "darkblue",
                 }}
             >
-                Genres
+                Movies List
             </NavLink>
             <NavLink
                 to="/movies"
@@ -36,7 +46,7 @@ function NavBar() {
                     background: "darkblue",
                 }}
             >
-                Movies
+                Search Movies
             </NavLink>
 
         </div>
