@@ -3,17 +3,30 @@ import { NavLink } from "react-router-dom"
 
 function NavBar() {
 
-
+    // <header header className="App-header" >
+    //     <img src="https://miro.medium.com/max/1400/1*zjlJFYv8KSDyKtYfVD19HA.webp " className="App-logo" alt="logo" style={{ width: "300px" }} />
+    //     <a
+    //         className="App-link"
+    //         href="https://reactjs.org"
+    //         target="_blank"
+    //         rel="noopener noreferrer"
+    //     >
+    //         Learn React
+    //     </a>
+    // </header>
 
     return (
 
         <div className="navbar">
-            <NavLink
+            <p>This is where navbar is</p>
+            {/* <NavLink
                 to="/"
                 exact
                 // style={linkStyles}
+                style={{ marginRight: "20px" }}
                 activeStyle={{
-                    background: "darkblue",
+                    background: "lightblue",
+
                 }}
             >
                 Home
@@ -22,32 +35,37 @@ function NavBar() {
                 to="/about"
                 exact
                 // style={linkStyles}
+                style={{ marginRight: "20px" }}
                 activeStyle={{
-                    background: "darkblue",
+                    background: "lightblue",
                 }}
             >
                 About
             </NavLink>
             <NavLink
-                to="/movies"
+                to="/moviesList"
                 exact
                 // style={linkStyles}
+                style={{ marginRight: "20px" }}
                 activeStyle={{
-                    background: "darkblue",
+                    background: "lightblue",
                 }}
             >
-                Movies List
+                Movies
             </NavLink>
             <NavLink
-                to="/movies"
+                to="/Search"
                 exact
                 // style={linkStyles}
+                style={{ marginRight: "20px" }}
+
                 activeStyle={{
-                    background: "darkblue",
+                    background: "lightblue",
                 }}
             >
-                Search Movies
+                Search
             </NavLink>
+ */}
 
         </div>
     )
