@@ -1,18 +1,18 @@
 import React from "react";
 
-function ImageCard({ title, date, image }) {
+function ImageCard({ title, year, image }) {
 
 
     return (
         <div>
-            {<div className="artcard">
-                <p>This is where imagecard is</p>
-                <h1> {title}</h1>
-                <h2> {date}</h2>
-                <img src={image} alt={title} />
+            {<div className="artcontainer" >
+                <div className="artcard">
+                    <h1> {title}</h1>
+                    <h2> Created In: {year}</h2>
+                    <img src={image} alt={title} />
+                </div>
             </div>}
 
-            <h1>Images are here</h1>
 
         </div>
 

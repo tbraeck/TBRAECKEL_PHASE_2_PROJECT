@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Search() {
+    const [searchInput, setSearchInput] = useState("")
 
+    function handleChange(e) {
+        e.preventDefault();
+        setSearchInput(e.target.value)
+    }
     return (
-        <h1 typeof="search">I am the search bar</h1>
+        <div className="searchBar">
+            <input
+                type="text"
+                placeholder="Search Artwork Here"
+                onChange={handleChange}
+                value={searchInput} />
+        </div>
     )
 }
 
