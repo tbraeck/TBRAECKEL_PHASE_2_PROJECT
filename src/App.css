@@ -2,7 +2,16 @@
   color: "crimson"
 }
 
+.header {
+  position: absolute;
+
+}
+
 .navbar {
   position: relative;
   padding: 0 6px 6px;
+}
+
+#artcard {
+  width: 400px;
 }
