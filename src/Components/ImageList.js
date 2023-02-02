@@ -11,26 +11,22 @@ function ImageList() {
             .then((data) => SetArt(data))
     }, [])
 
-
-
     return (
-        <div>
+        <div className="imagelist">
             {art && art.map((oneArt) => {
                 console.log(oneArt)
+
                 return (
                     <ImageCard
+                        key={oneArt.title}
                         title={oneArt.title}
-                        date={oneArt.date}
+                        year={oneArt.year}
                         image={oneArt.imageUrl}
 
                     />
                 )
             })}
 
-            {/* {Array.from(movies).map((movie) => {
-                console.log(movie) */}
-
-            <p>image list is here</p>
         </div>
 
 
