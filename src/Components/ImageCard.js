@@ -1,20 +1,32 @@
 import React from "react";
 
-function ImageCard({ title, year, image }) {
+function ImageCard({ title, year, price, image }) {
 
 
     return (
         <div>
-            {<div className="artcontainer" >
-                <div className="artcard">
-                    <h1> {title}</h1>
-                    <h2> Created In: {year}</h2>
-                    <img src={image} alt={title} />
-                </div>
-            </div>}
+            {<div className="artContainer" >
+                <ul>
+                    <div className="imageGallery">
+
+                        <div className="cards">
+                            <div className="wrap">
+                                <img src={image} alt={title} />
+                                <br></br>
+                                <h1 > {title}</h1>
+                                <h2> Created In: {year}</h2>
+                                <h2>Price: {price}</h2>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </ul>
+            </div >}
 
 
-        </div>
+        </div >
 
     )
 }

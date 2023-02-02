@@ -4,48 +4,56 @@
       "id": 1,
       "title": "Dia de los Muertos 1",
       "year": "2020",
+      "price": "$1.2 million",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/day-of-the-dead_orig.png"
     },
     {
       "id": 2,
       "title": "Paradise",
       "year": "2020",
+      "price": "45 million pennies",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/seascape-1_orig.png"
     },
     {
       "id": 3,
       "title": "Dia de los Muertos 2",
       "year": "2021",
+      "price": "$6,000",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/img-1038_orig.jpg"
     },
     {
       "id": 4,
       "title": "The Bang Bang Man",
       "year": "2012",
+      "price": "$42",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/to-market_orig.jpg"
     },
     {
       "id": 5,
       "title": "From Above",
-      "year": "2019",
+      "year": "$.0006",
+      "price": "$6",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/3173468_orig.jpg"
     },
     {
       "id": 6,
       "title": "Heart and Brain",
       "year": "2019",
+      "price": "$32.42",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/heart-and-brain_orig.png"
     },
     {
       "id": 7,
       "title": "Water",
       "year": "2021",
+      "price": "$1",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/agua-color-1_orig.png"
     },
     {
       "id": 8,
       "title": "Bound",
       "year": "2020",
+      "price": "priceless",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/6784672_orig.jpg"
     }
   ]

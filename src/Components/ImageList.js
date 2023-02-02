@@ -1,34 +1,33 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ImageCard from "./ImageCard";
 
-
-function ImageList() {
-    const [art, SetArt] = useState(null)
-
-    useEffect(() => {
-        fetch(`http://localhost:8000/artwork`)
-            .then((r) => r.json())
-            .then((data) => SetArt(data))
-    }, [])
-
+function ImageList({ art }) {
     return (
-        <div className="imagelist">
-            {art && art.map((oneArt) => {
-                console.log(oneArt)
+        <div>
+            <br></br>  <br></br>
+            <br></br>
+            <ul className="cards" >
 
-                return (
-                    <ImageCard
-                        key={oneArt.title}
-                        title={oneArt.title}
-                        year={oneArt.year}
-                        image={oneArt.imageUrl}
+                {art.map((oneArt) => {
 
-                    />
-                )
-            })}
+                    return (
+                        <div className="card" >
+                            <ImageCard
+                                key={oneArt.title}
+                                image={oneArt.imageUrl}
+                                title={oneArt.title}
+                                year={oneArt.year}
+                                price={oneArt.price}
+                            />
+                        </div>
 
+
+                    )
+                })}
+
+
+            </ul>
         </div>
-
 
     )
 }

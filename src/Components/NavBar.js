@@ -8,7 +8,7 @@ function NavBar() {
 
         <div className="navbar">
             <NavLink
-                to="/"
+                to="/home"
                 exact
                 style={{ marginRight: "40px", fontSize: "30px", color: "#D2AE90" }}
 
@@ -51,8 +51,8 @@ function NavBar() {
             >
                 Artwork
             </NavLink>
-            <NavLink
-                to="/search"
+            {/* <NavLink
+                to="/addart"
                 exact
                 style={{ marginRight: "40px", fontSize: "30px", color: "#D2AE90" }}
 
@@ -64,8 +64,8 @@ function NavBar() {
 
                 }}
             >
-                Search
-            </NavLink>
+                Create Some Art
+            </NavLink> */}
 
 
         </div>
