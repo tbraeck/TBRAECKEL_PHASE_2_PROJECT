@@ -10,17 +10,15 @@ function ImageCard({ title, year, price, image }) {
                     <div className="imageGallery">
 
                         <div className="cards">
-                            <div className="wrap">
-                                <img src={image} alt={title} />
-                                <br></br>
-                                <h1 > {title}</h1>
-                                <h2> Created In: {year}</h2>
-                                <h2>Price: {price}</h2>
-                            </div>
-
+                            <img className="img" src={image} alt={title} />
+                            <br></br>
+                            <h1 > {title}</h1>
+                            <h2> Created In: {year}</h2>
+                            <h2>Price: {price}</h2>
                         </div>
 
                     </div>
+
 
                 </ul>
             </div >}

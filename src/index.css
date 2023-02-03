@@ -25,15 +25,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-.header {
+.headerText {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-left: 0px;
+  padding-top: 50px;
+  padding-bottom: 20px;
   font-stretch:
     expanded;
   font-size: 45px;
@@ -42,19 +39,33 @@ body {
   color: rgb(74, 63, 80);
 }
 
+/* .headerImg:hover {
+  color: aqua;
+  text-decoration: none;
+  font-weight: none;
+} */
+
+/* .headerImg {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  width: 200px;
+  height: 100px;
+} */
+
 .navbar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 700px;
+  /* margin-right: 400px; */
   padding: 1.5rem 1rem;
-  left: 40px;
+  /* left: 40px; */
   top: -10px;
   color: rgb(253, 151, 255);
   border-radius: 2px;
   font-family: 'Courier New', Courier, monospace;
-
-  /* display: flex; */
-  /* flex-direction: row;
-  flex: 1;
-  align-content: center;
-  padding-bottom: 6em; */
+  justify-content: left;
+  padding-bottom: 15px;
 }
 
 .homeContainer {
@@ -68,103 +79,162 @@ body {
 
 
 .introImage {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  top: -270px;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-top: -370px;
+  padding: 1.5rem 1rem;
+
+  justify-content: left;
+  padding-bottom: 15px;
   width: 650px;
   filter: drop-shadow(20px 20px 10px rgb(38, 46, 38));
 
 }
 
 .introText {
-  position: relative;
-  flex-direction: column;
-  text-align: center;
   font-size: 20px;
-  top: 70px;
-  left: 300px;
   color: rgb(101, 95, 95);
+  flex-direction: column;
+  margin-left: 820px;
+  padding: 1.5rem 1rem;
+  justify-content: left;
+  padding-bottom: 15px;
 }
 
-.aboutcontainer {
-  background-size: contain;
-  background-color: rgb(229, 225, 225);
 
+
+.aboutContainer {
+  /* background-size: contain; */
+  /* display: flex; */
+  background-color: rgb(229, 225, 225);
 }
 
 .meImage {
   position: relative;
-  left: -550px;
-  padding: 60px 3px 3px 3px;
+  align-content: left;
+  /* flex-direction: column; */
+  margin-right: 950px;
+  padding: 40px 3px 3px 3px;
   order: 1;
   filter: drop-shadow(20px 20px 10px rgb(38, 46, 38));
 }
+
+
 
 .aboutTextBox {
   position: relative;
   text-align: center;
   top: -600px;
   right: -250px;
-  color: rgb(231, 224, 224);
-  text-shadow: rgb(83, 81, 81) 1px 2px 1px;
+  color: rgb(18, 16, 16);
+  text-shadow: rgb(245, 239, 239) 1px 2px 1px;
+
 }
 
 .search {
-  width: 30%;
-  left: 650px;
-  /* top: 220px;
-  
-*/
-  position: relative;
-  align-content: center;
-  /* padding: 1em; */
+  width: 100%;
+  position: flex;
+  flex-direction: row;
+  /* align-content: left; */
+  display: flex;
+  /* flex-direction: row; */
+  margin-left: 480px;
+  margin-right: 800px;
+  padding: 1.5rem 1rem;
+  /* left: 40px; */
+  top: -10px;
+  color: rgb(253, 151, 255);
+  border-radius: 2px;
+  font-family: 'Courier New', Courier, monospace;
+
+  justify-content: left;
+  padding-bottom: 15px;
 }
 
 .searchTerm {
   width: 50%;
-  border: 3px solid #00B4CC;
+  border: 3px solid #000000;
   font-size: medium;
-  border-right: none;
   padding: 5px;
   height: 40px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px 5px 5px 5px;
   outline: none;
   color: #9DBFAF;
+  filter: drop-shadow(10px 10px 10px rgb(63, 59, 59));
+
 }
 
 .searchTerm :focus {
-  color: #00b4cc;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4cc;
-  background-color: #00b4cc;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 22px;
-  padding-bottom: 10px;
+  color: #191b1b;
 }
 
 .newArtForm {
-  /* position: relative; */
-  /* top: -10px;
-   */
-  padding-top: 2em;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding: 1.5rem 1rem;
+  top: -10px;
+  color: rgb(253, 151, 255);
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+
+  justify-content: left;
   padding-bottom: 0px;
-  height: 40px;
+
+}
+
+.h2Wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  border-radius: 15px;
+  border: 5px black;
+
 }
 
 .newArtFormH2 {
-  font-size: 30px;
-  text-align: center;
-  background-color: #fff;
+  display: flex;
+  padding: 3px;
+  justify-content: center;
+  font-size: 24px;
+  background-color: rgb(84, 175, 145);
+  width: 300px;
+  color: rgb(253, 248, 248);
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px rgb(63, 59, 59);
+
 }
+
+.formTitle {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.formYear {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.formPrice {
+  padding: 10px;
+  font-size: 15px;
+
+}
+
+.formImage {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.formButton {
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+
 
 .cards {
   display: flexbox;
@@ -172,6 +242,8 @@ body {
   grid-column-gap: 10px;
   text-align: right;
   list-style: none;
+  background-color: rgb(229, 225, 225);
+
 }
 
 .card {
@@ -181,6 +253,9 @@ body {
 .card img {
   width: 120%;
   padding-bottom: 1em;
+  filter: drop-shadow(20px 20px 10px rgb(38, 46, 38));
+
+
 }
 
 .card h1 {
@@ -195,8 +270,8 @@ body {
   width: 100%;
   position: block;
   align-items: left;
-  text-shadow: rgb(74, 63, 80)1px 2px 1px;
-  color: rgb(213, 213, 212);
+  /* text-shadow: rgb(74, 63, 80)1px 2px 1px; */
+  color: rgb(15, 15, 14);
 }
 
 

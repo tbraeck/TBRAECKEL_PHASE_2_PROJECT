@@ -13,6 +13,7 @@ function Home() {
                     Welcome to the<br></br> <em>Tate Braeckel</em><br></br>Online Art Gallery!<br></br>
                 </h1>
                 <h2>
+                    <br></br>
                     Please explore his art, check out a little about his art journey, <br></br><br></br>and <u>feel free to add any art to the gallery <br></br><br></br>that you think is amazing!</u>
                 </h2>
 

@@ -10,7 +10,7 @@ function NavBar() {
             <NavLink
                 to="/home"
                 exact
-                style={{ marginRight: "40px", fontSize: "30px", color: "#D2AE90" }}
+                style={{ marginRight: "100px", fontSize: "30px", color: "#f3a84c" }}
 
                 activeStyle={{
                     background: "black",
@@ -24,7 +24,7 @@ function NavBar() {
             <NavLink
                 to="/about"
                 exact
-                style={{ marginRight: "40px", fontSize: "30px", color: "#D2AE90" }}
+                style={{ marginRight: "100px", fontSize: "30px", color: "#f3a84c" }}
 
                 activeStyle={{
                     background: "black",
@@ -39,7 +39,7 @@ function NavBar() {
             <NavLink
                 to="/artwork"
                 exact
-                style={{ marginRight: "40px", fontSize: "30px", color: "#D2AE90" }}
+                style={{ marginRight: "100px", fontSize: "30px", color: "#f3a84c    " }}
 
                 activeStyle={{
                     background: "black",
@@ -51,23 +51,6 @@ function NavBar() {
             >
                 Artwork
             </NavLink>
-            {/* <NavLink
-                to="/addart"
-                exact
-                style={{ marginRight: "40px", fontSize: "30px", color: "#D2AE90" }}
-
-                activeStyle={{
-                    background: "black",
-                    color: "#F2A68D",
-                    borderRadius: "5px",
-                    padding: "3px"
-
-                }}
-            >
-                Create Some Art
-            </NavLink> */}
-
-
         </div>
     )
 }

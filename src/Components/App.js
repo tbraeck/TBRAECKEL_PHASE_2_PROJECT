@@ -19,8 +19,8 @@ function App() {
           <div>
 
             <Header />
-            <NavBar className="navbar" />
 
+            <NavBar className="navbar" />
             <div>
 
               <Route exact path="/home" >

@@ -55,6 +55,13 @@
       "year": "2020",
       "price": "priceless",
       "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/6784672_orig.jpg"
+    },
+    {
+      "title": "Old Man Waiting",
+      "year": "2006",
+      "price": "4000",
+      "imageUrl": "http://www.tatebraeckelart.com/uploads/1/7/8/7/17870845/old-man-waiting_orig.jpg",
+      "id": 9
     }
   ]
 }

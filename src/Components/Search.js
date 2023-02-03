@@ -1,37 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 
-function Search({ art }) {
-    const [searchInput, setSearchInput] = useState("")
+function Search({ searchTerm, onSearchChange }) {
 
-    function handleChange(e) {
-        e.preventDefault();
-        setSearchInput(e.target.value)
-    }
-
-    function displayedImage() {
-        art.filter((oneArt) => {
-            return (
-                oneArt.title.toLowerCase().includes(searchInput.toLowerCase())
-            )
-        })
-
-    }
 
     return (
         <div className="searchWrap">
             <div className="search">
                 <input
                     type="text"
+                    id="search"
                     className="searchTerm"
                     placeholder="Search Artwork Here"
-                    onChange={(e) => setSearchInput(e.target.value)}
-                    value={searchInput} />
-                <button type="submit" className="searchButton"
-                    onSubmit={displayedImage}>
-                    🔍
-                </button>
+                    value={searchTerm}
+                    onChange={(e) => onSearchChange(e.target.value)} />
+
+
             </div>
-        </div>
+        </div >
     )
 }
 
