@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Tate Braeckel Art Portfolio 
+Tate Braeckel's Art Portfolio site was created to be stand alone searchable art portfolio site for Tate Braeckel. It is an SPA with a navbar that clients can use to navigate to Home, About, and the Artwork routes.  This site has basic tools like a search bar, a navbar, a logo image that links to the home page,  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Even from the first moment the user opens this site, the feeling of early 90's permeates the screen. 
+Live demo [_here_](https://www.youtube.com/watch?v=_VBBTIGca6M). <!-- If you have the project hosted somewhere, include the link here. -->
 
-## Available Scripts
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
-In the project directory, you can run:
 
-### `npm start`
+## General Information
+- Back To The 90's is a site for those who wish to take a moment to travel back to simpler times, when the revolution of modern developing was only a dream and many high school kids spent hours building their own "place" online.
+- This site is intended to create a nostaglia for the user- a remembrance of simpler times. It is also for entertainment, simplistic interactions, game-play, and fun. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies Used
+- Vanilla JavaScript - version 1.0
+- VS Code - version 1.72.2
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+List the ready features here:
+- A button that tells the exact date and time!
+- A dancing unicorn that is part of a mini-game!
+- Perfectly calibrated 90's nostaglia look!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+(https://github.com/tbraeck/phase-1-final-project/blob/47b1ae296bcd4563f1cbeaa17c9006db787a307d/Screenshot-Phase%201%20Project.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
+To setup this project go to my GitHub repository at: https://github.com/tbraeck/phase-1-final-project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start with the README file and then open the CSS, HTML, and Javascript files in a text editor like VS Code.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The only remaining file associated with the project is the db.json which contains the array used for the iteration method.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+Below are snippets of some code within the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+//JavaScript example for date and time button//
 
-### Code Splitting
+`document.getElementById("myBtn").addEventListener("click", displayDate);
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+    console.log('You now know the date and time! You are welcome!');
+}` //// the buton click event for fetching the date and time
 
-### Analyzing the Bundle Size
+//HTML example for the gif dance floor associated with the dancing unicorn mini-game//
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`<!-- dance floor gif 
+<!-- <div>
+    <div id="dfloor"> <img
+            src="https://media1.giphy.com/media/1r8VkS9JMQaIYNHWDu/giphy.gif?cid=ecf05e47f19c6w0l1onfn0mghertcw1bxbxspq1x9k0ji1ad&amp;rid=giphy.gif&amp;ct=g"
+            alt="dance floor dancing GIF">FIND THE DANCE FLOOR
+    </div>
+</div> --> `
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Project Status
+Project is: _in progress_ I feel like there is always room for improvement. I know once I have imprved as a developer I can come back and make this even better than it is already.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Room for Improvement
 
-### Deployment
+Room for improvement:
+- I need to improve the aesthetics of the overall site 
+- Improve the use interface/ experience
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To do:
+- Work on the styling/ placement of elements
+- Add or subtract other features, interactions, experiences
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+
+- This project was inspired by...1992 and Aaron (my brother)
+- Many thanks to...my brother for his inspiration for this project's overall theme
+
+
+## Contact
+Created by [Tate Braeckel](www.linkedin.com/in/tate-braeckel) - feel free to contact me!
+
+
+
